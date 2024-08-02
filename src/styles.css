@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .traffic-container {
+    width: 200px;
+    height: 500px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .traffic-container::before {
+    content: '';
+    width: 100px;
+    height: 50px;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: -25px;
+    left: 25%;
+    border-radius: 20px;
+  }
+  
+  .traffic-container::after {
+    content: '';
+    width: 100px;
+    height: 50px;
+    background-color: #1f1f1f;
+    position: absolute;
+    bottom: -25px;
+    left: 25%;
+    border-radius: 20px;
+  }
+  
+  .traffic-container-light {
+    width: 125px;
+    height: 125px;
+    background-color: #c2c2c2;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .spoiler {
+    position: absolute;
+    left: -50%;
+    top: 5%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(100% 100%, 0 0, 100% 0);
+  }
+  
+  .spoiler1 {
+    position: absolute;
+    left: -50%;
+    top: 38%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(100% 100%, 0 0, 100% 0);
+  }
+  
+  
+  .spoiler2 {
+    position: absolute;
+    left: -50%;
+    top: 72%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(100% 100%, 0 0, 100% 0);
+  }
+  
+  .spoiler3 {
+    position: absolute;
+    left: 100%;
+    top: 5%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+  }
+  
+  .spoiler4 {
+    position: absolute;
+    left: 100%;
+    top: 38%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+  }
+  
+  .spoiler5 {
+    position: absolute;
+    left: 100%;
+    top: 72%;
+    width: 100px;
+    height: 125px;
+    background-color: #3f3f3f;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+  }
